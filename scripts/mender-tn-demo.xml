@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="https://github.com/TechNexion-customization" name="tncustom"/>
+
+  <project name="meta-tn-mender-demos" remote="tncustom" revision="zeus" path="sources/meta-tn-mender-demos">
+    <linkfile src="scripts/tn-setup-mender-demo.sh" dest="tn-setup-mender-demo.sh"/>
+  </project>
+
+</manifest>
