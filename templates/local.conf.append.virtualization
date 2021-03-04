@@ -1,0 +1,13 @@
+
+# Appended fragment from meta-mender-community/meta-mender-technexion/templates/local.conf.append.virtualization
+
+MENDER_UBOOT_STORAGE_DEVICE_pico-imx8mm = "2"
+MENDER_BOOT_PART_NUMBER_pico-imx8mm = "2"
+#MENDER_BOOT_PART_NUMBER_HEX_pico-imx8mm = "2"
+#MENDER_STORAGE_DEVICE_pico-imx8mm = "/dev/mmcblk2"
+MENDER_IMAGE_BOOTLOADER_FILE_pico-imx8mm = "imx-boot"
+#MENDER_BOOT_PART_SIZE_MB_pico-imx8mm = "40"
+MENDER_IMAGE_BOOTLOADER_BOOTSECTOR_OFFSET_pico-imx8mm = "66"
+#MENDER_UBOOT_POST_SETUP_COMMANDS_pico-imx8mm = "setenv mender_dtb_name imx8mm-pico-pi-ili9881c.dtb"
+#MENDER_UBOOT_PRE_SETUP_COMMANDS_pico-imx8mm = "run setbootargs"
+
